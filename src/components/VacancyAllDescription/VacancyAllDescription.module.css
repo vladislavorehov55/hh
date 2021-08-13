@@ -1,0 +1,76 @@
+.wrap {
+    display: none;
+    margin-left: 20px;
+    flex: 0 1 660px;
+    background: #FFFFFF;
+    padding-left: 2.5%;
+    padding-top: 1.5%;
+    padding-right: 2.5%;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.info {
+    margin-left: 10%;
+}
+.job {
+    font-size: 20px;
+    font-weight: 700;
+    color: #000000;
+}
+.companyName, .city {
+    font-size: 10px;
+    font-weight: 700;
+    color: #9AAAB5;
+}
+.city {
+    margin-left: 10px;
+    border-left: 1px solid grey;
+    padding-left: 10px;
+}
+.salary {
+    font-size: 20px;
+    font-weight: 700;
+    color: #000000;
+    margin-top: 27px;
+    padding-bottom: 37px;
+    border-bottom: 2px solid #F9F9F9;
+}
+.text {
+    font-weight: 700;
+    font-size: 14px;
+    color: #000000;
+}
+.close {
+    display: none;
+}
+.show {
+    display: block;
+    z-index: 1;
+}
+@media (max-width: 834px) {
+    .wrap {
+        position: absolute;
+        top: calc(170px - 90px);
+        left: 10%;
+        right: 10%;
+        margin: 0;
+        flex: 0 1 660px;
+        background: #FFFFFF;
+        padding-left: 2.5%;
+        padding-top: 1.5%;
+        padding-right: 2.5%;
+    }
+    .close {
+        display: block;
+        position: absolute;
+        top: 2.5%;
+        right: 2.5%;
+        cursor: pointer;
+    }
+    .show {
+        z-index: 3;
+    }
+}

@@ -1,0 +1,74 @@
+.wrap {
+    display: flex;
+    align-items: flex-start;
+    min-height: 133px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 10px 25% 10px 5px;
+    position: relative;
+    margin-bottom: 15px;
+}
+.like {
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    cursor: pointer;
+}
+.container {
+    margin-left: 5%;
+}
+
+.companyName {
+    font-size: 10px;
+    font-weight: 700;
+    color: #9AAAB5;
+    margin-bottom: 5px;
+}
+.job {
+    font-size: 14px;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 5px;
+}
+.city {
+    font-size: 10px;
+    font-weight: 700;
+    color: #9AAAB5;
+    margin-bottom: 10px;
+}
+.skillsWrap {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.skill {
+    font-size: 9px;
+    font-weight: 700;
+    color: #95A5B2;
+    margin-right: 5px;
+    background: #F7F8F9;
+    border-radius: 4px;
+    padding: 5px;
+    margin-bottom: 9px;
+
+
+}
+.date {
+    position: absolute;
+    bottom: 10%;
+    right: 5%;
+    font-size: 9px;
+    font-weight: 500;
+    color: #A1AEB9;
+}
+
+@media (max-width: 445px) {
+    .date {
+        display: none;
+    }
+}
+@media (max-width: 960px) {
+    .skill {
+        font-size: 7px;
+    }
+}

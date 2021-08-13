@@ -1,0 +1,93 @@
+.header {
+    position: fixed;
+    width: 100%;
+    min-height: 74px;
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    background: #FFFFFF;
+    z-index: 10;
+}
+.container {
+    display: flex;
+}
+.title {
+    font-size: 20px;
+}
+.titleFirstWord {
+    color: #000000;
+    font-weight: 900;
+}
+.titleSecondWord {
+    color: rgb(0, 112, 251);
+    font-weight: 700;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+}
+.menuItem {
+    font-size: 14px;
+    font-weight: 700;
+    color: #6B8397;
+    cursor: pointer;
+}
+.active {
+    color: #0070FB;
+}
+
+@media (min-width: 401px) and (max-width: 730px) {
+    .title {
+        font-size: 15px;
+    }
+}
+@media (min-width: 401px) {
+    .header {
+        align-items: center;
+        justify-content: space-between;
+    }
+    .menu {
+        justify-content: space-between;
+    }
+    .container {
+        margin-right: 10px;
+    }
+    .menuWrap {
+        flex: 0 1 calc(125px + 81px + 164px);
+    }
+    .closeIcon, .menuIcon {
+        display: none;
+    }
+}
+@media (max-width: 400px) {
+    .header {
+        flex-direction: column;
+    }
+    .container {
+        justify-content: space-between;
+        align-items: center;
+        flex-basis: 74px;
+    }
+    .title {
+        font-size: 15px;
+    }
+    .menuWrap {
+        display: none;
+    }
+    .showMenuWrap {
+        flex: 0 0 129px;
+        display: flex;
+        flex-direction: column;
+    }
+    .menu {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-basis: 100%;
+        flex-grow: 1;
+    }
+    .closeIcon, .menuIcon {
+        cursor: pointer;
+    }
+}
