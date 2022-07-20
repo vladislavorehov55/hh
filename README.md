@@ -15,8 +15,5 @@ React, css-modules
 ![image](https://user-images.githubusercontent.com/41488889/180066351-74ae4e8e-a3ad-4e48-8533-7bcc10a4e805.png)
 ***
 Полное описание вакансии
-![image](https://user-images.githubusercontent.com/41488889/180066463-d8755103-5cd6-4c81-80a6-2724b51d536b.png)
-
-
-
+![image](https://user-images.githubusercontent.com/41488889/180066874-19768497-7523-401b-8b02-c84ddfcfd624.png)
 
